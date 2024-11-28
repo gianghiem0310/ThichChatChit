@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Nội dung chính của Activity -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Nội dung chính của Activity ở đây -->
+    </RelativeLayout>
+
+    <!-- Lớp bên trái (layer) -->
+    <LinearLayout
+        android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:orientation="vertical"
+        android:background="@android:color/white">
+
+        <!-- Nội dung của lớp bên trái (menu, panel, ...) -->
+        <!-- Ví dụ: có thể là danh sách các mục menu -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menu Item 1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menu Item 2" />
+
+        <!-- Các mục khác nếu cần -->
+
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

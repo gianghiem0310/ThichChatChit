@@ -1,0 +1,25 @@
+<!-- res/layout/menu_item_layout.xml -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="4dp">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_invite" />
+
+    <TextView
+        android:id="@+id/notification_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:background="@drawable/badge"
+        android:padding="2dp"
+        android:text="99"
+        android:textColor="@android:color/white"
+        android:textSize="8sp"
+        android:visibility="visible" />
+</FrameLayout>

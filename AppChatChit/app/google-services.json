@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "626634863236",
+    "project_id": "chatsupper-36bf1",
+    "storage_bucket": "chatsupper-36bf1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626634863236:android:3e7cd50a5d023d876fc8d1",
+        "android_client_info": {
+          "package_name": "com.example.appchatchit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV19dLVtXfTCXvGfVxb6HCTAsyOTXIqJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
